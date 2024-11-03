@@ -22,6 +22,9 @@ def create_tables():
         db.create_all()
         tables_created = True
 
+
+#########################################################################################
+
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
