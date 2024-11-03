@@ -74,8 +74,8 @@ def logout():
     return redirect(url_for('login'))
 
 @app.route('/')
-def onboardPage():  # Corrected spelling
-    return render_template('onbordPage.html')  # Render a template
-
+def onboardPage(): 
+    return render_template('onbordPage.html') 
+    
 if __name__ == '__main__':
     app.run(debug=True)
